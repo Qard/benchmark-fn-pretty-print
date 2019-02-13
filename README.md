@@ -1,5 +1,7 @@
 # benchmark-fn-pretty-print
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Qard/benchmark-fn-pretty-print.svg)](https://greenkeeper.io/)
+
 ## Install
 
 ```sh

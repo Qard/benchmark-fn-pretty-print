@@ -6,7 +6,9 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "tap test.js"
+    "test": "tap test.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "benchmark",
@@ -22,9 +24,11 @@
     "url": "https://github.com/Qard/benchmark-fn-pretty-print/issues"
   },
   "dependencies": {
-    "table": "^4.0.3"
+    "table": "^4.0.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "tap": "^11.1.2"
-  }
+  },
+  "snyk": true
 }

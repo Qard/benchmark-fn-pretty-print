@@ -22,7 +22,7 @@
     "url": "https://github.com/Qard/benchmark-fn-pretty-print/issues"
   },
   "dependencies": {
-    "table": "^4.0.3"
+    "table": "^5.4.2"
   },
   "devDependencies": {
     "tap": "^11.1.2"
